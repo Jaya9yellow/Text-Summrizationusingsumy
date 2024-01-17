@@ -13,7 +13,7 @@ Additionally, download the required NLTK data by executing:
 ```python
 python -m nltk.downloader punkt
 ```
-##Usage
+## Usage
 To perform extractive summarization, use the extractive_summarization function in the script. Provide the input text and the desired number of sentences for the summary. 
 Below is an example:
 ```python
@@ -33,5 +33,5 @@ print("\nExtractive Summary:")
 print(summary_result)
 ```
 
-##Acknowledgments
+## Acknowledgments
 This script uses the Sumy library for extractive summarization. For more information on Sumy, refer to [Sumy Documentation](https://pypi.org/project/sumy/).
